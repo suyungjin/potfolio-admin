@@ -91,10 +91,8 @@ body{
     font-size: 24px;
 }
 .b2{
-    position: absolute;
-    bottom: 80px;
-    left: 50%;
-    transform: translateX(-50%);
+    display:block;
+    margin: 100px auto;
     width: 260px;
     padding: 10px 0;
     text-decoration: none;
