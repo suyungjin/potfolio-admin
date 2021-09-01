@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>관리자 페이지</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="lab la-accusoft"></span><span>Admin</span></h2>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active">
+                        <span class="las la-igloo"></span>
+                        <span>대시보드</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">
+                        <span class="las la-users"></span>
+                        <span>사용자 관리</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">
+                        <span class="las la-clipboard-list"></span>
+                        <span>예약</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">
+                        <span class="las la-shopping-bag"></span>
+                        <span>쇼핑</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">
+                        <span class="las la-receipt"></span>
+                        <span>컨텐츠 관리</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">
+                        <span class="las la-user-circle"></span>
+                        <span>결제/부가서비스</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">
+                        <span class="las la-cog"></span>
+                        <span>설정</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+            <label for="nav-toggle">
+                <span class="las la-bars"></span>
+            </label>
+            대시보드
+        </h2>
+        <div class="search-wrapper">
+            <span class="las la-search"></span>
+            <input type="search" placeholder="Search here">
+        </div>
+        <div class="user-wrapper">
+            <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="">
+            <div>
+                <h4>SY Jin</h4>
+                <small>Super admin</small>
+            </div>
+        </div>
+        </header>
+        <main>
+
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>사용자 관리</span>
+                    </div>
+                    <div>
+                        <span class="las la-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>130</h1>
+                        <span>예약</span>
+                    </div>
+                    <div>
+                        <span class="las la-clipboard"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>124</h1>
+                        <span>쇼핑</span>
+                    </div>
+                    <div>
+                        <span class="las la-shopping-bag"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>$8k</h1>
+                        <span>수입</span>
+                    </div>
+                    <div>
+                        <span class="lab la-google-wallet"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-flex">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>최근 컨텐츠 관리</h3>
+
+                            <button>See all <span class="las la-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="ul-responsive">
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>컨텐츠 제목</dt>
+                                        <dd>부처</dd>
+                                        <dd>현황</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>UI/UX Design</dt>
+                                        <dd>UI 팀</dd>
+                                        <dd>
+                                            <span class="status purple"></span>
+                                            review
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>웹 개발</dt>
+                                        <dd>프론트엔드</dd>
+                                        <dd>
+                                            <span class="status pink"></span>
+                                            진행중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>쇼핑몰앱</dt>
+                                        <dd>모바일 팀</dd>
+                                        <dd>
+                                            <span class="status orange"></span>
+                                            대기중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>UI/UX Design</dt>
+                                        <dd>UI 팀</dd>
+                                        <dd>
+                                            <span class="status purple"></span>
+                                            review
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>웹 개발</dt>
+                                        <dd>프론트엔드</dd>
+                                        <dd>
+                                            <span class="status pink"></span>
+                                            진행중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>쇼핑몰앱</dt>
+                                        <dd>모바일 팀</dd>
+                                        <dd>
+                                            <span class="status orange"></span>
+                                            대기중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>UI/UX Design</dt>
+                                        <dd>UI 팀</dd>
+                                        <dd>
+                                            <span class="status purple"></span>
+                                            review
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>웹 개발</dt>
+                                        <dd>프론트엔드</dd>
+                                        <dd>
+                                            <span class="status pink"></span>
+                                            진행중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>쇼핑몰앱</dt>
+                                        <dd>모바일 팀</dd>
+                                        <dd>
+                                            <span class="status orange"></span>
+                                            대기중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>UI/UX Design</dt>
+                                        <dd>UI 팀</dd>
+                                        <dd>
+                                            <span class="status purple"></span>
+                                            review
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>웹 개발</dt>
+                                        <dd>프론트엔드</dd>
+                                        <dd>
+                                            <span class="status pink"></span>
+                                            진행중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>쇼핑몰앱</dt>
+                                        <dd>모바일 팀</dd>
+                                        <dd>
+                                            <span class="status orange"></span>
+                                            대기중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>UI/UX Design</dt>
+                                        <dd>UI 팀</dd>
+                                        <dd>
+                                            <span class="status purple"></span>
+                                            review
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>웹 개발</dt>
+                                        <dd>프론트엔드</dd>
+                                        <dd>
+                                            <span class="status pink"></span>
+                                            진행중
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>쇼핑몰앱</dt>
+                                        <dd>모바일 팀</dd>
+                                        <dd>
+                                            <span class="status orange"></span>
+                                            대기중
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>새 고객</h3>
+
+                            <button>See all <span class="las la-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+            
+                                <div class="info">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="고객">
+                                    <div>
+                                        <h4>홍길동</h4>
+                                        <small>CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+            
+                                <div class="info">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="고객">
+                                    <div>
+                                        <h4>홍길동</h4>
+                                        <small>CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+            
+                                <div class="info">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="고객">
+                                    <div>
+                                        <h4>홍길동</h4>
+                                        <small>CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+            
+                                <div class="info">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="고객">
+                                    <div>
+                                        <h4>홍길동</h4>
+                                        <small>CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+            
+                                <div class="info">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="고객">
+                                    <div>
+                                        <h4>홍길동</h4>
+                                        <small>CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+            
+                                <div class="info">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="고객">
+                                    <div>
+                                        <h4>홍길동</h4>
+                                        <small>CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+            
+                                <div class="info">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="고객">
+                                    <div>
+                                        <h4>홍길동</h4>
+                                        <small>CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+            
+                                <div class="info">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg" width="40px" height="40px" alt="고객">
+                                    <div>
+                                        <h4>홍길동</h4>
+                                        <small>CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
