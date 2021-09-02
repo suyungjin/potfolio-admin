@@ -92,7 +92,7 @@ body{
 }
 .b2{
     display:block;
-    margin: 100px auto;
+    margin: 0 auto;
     width: 260px;
     padding: 10px 0;
     text-decoration: none;
