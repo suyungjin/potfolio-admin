@@ -17,8 +17,7 @@
 }
 
 .sidebar-brand{
-    height: 90px;
-    padding: 1rem 0rem 1rem 2rem;
+    padding: 2rem 0rem 1rem 2rem;
     color:#fff;
 }
 
@@ -96,13 +95,17 @@ header{
     z-index: 100;
     transition: all 0.5s;
     height: 9.5vh;
+    align-items: center;
 }
 #nav-toggle{
     display: none;
 }
 header h2{
     color: #222;
-    margin-top: 1vh;
+}
+
+header h2 .board{
+    vertical-align: top;
 }
 
 header label span{
@@ -309,6 +312,15 @@ main{
         top: 0;
         left: 0;
     }
+
+    .sidebar-brand{
+    height: 90px;
+}
+
+    .sidebar-menu{
+    margin-top: 2rem;
+}
+
     main{
         position: absolute;
         z-index: 1;
@@ -349,6 +361,16 @@ main{
         z-index: 100;
         transition: all 0.5s;
     }
+
+
+    .sidebar-brand{
+    height: 90px;
+}
+
+    .sidebar-menu{
+    margin-top: 2rem;
+}
+
     #nav-toggle:checked + .sidebar{
         width: 345px;
         left: -345px;
